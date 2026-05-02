@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вход | Палисадъ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-page-body">
+    <div class="login-container">
+        <div class="login-box">
+            <a href="index.php" class="logo-link">
+                <div class="logo" style="text-align: center; margin-bottom: 30px; font-size: 32px;">ПАЛИСАДЪ</div>
+            </a>
+            <h2>Вход</h2>
+            
+            <form method="POST" action="login.php">
+                <input type="text" name="login" placeholder="Логин" required>
+                <input type="password" name="pass" placeholder="Пароль" required>
+                <button type="submit">Войти</button>
+            </form>
+            
+            <div class="form-footer">
+                <a href="register.html">Нет аккаунта? Зарегистрироваться</a>
+                <a href="index.php">На главную</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
